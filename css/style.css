@@ -114,7 +114,7 @@ img {
 
 .sobre h1 {
   font-size: 3em;
-  max-block-size: 0.5em;
+	margin-bottom: .5em;
 }
 
 .sobre-info p {
@@ -142,13 +142,13 @@ img {
 
 .produtos-container {
   display: flex;
-  flex-flow: wrap;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .produtos-item {
   flex: 1 1 175px;
   margin: 10px;
-  align-items: flex-end;
 }
 
 .produtos-item h2 {
@@ -225,7 +225,7 @@ img {
 }
 
 .preco-item li::after {
-  content: '';
+  content: "";
   display: block;
   width: 6px;
   height: 6px;
@@ -279,22 +279,22 @@ img {
 }
 
 .qualidade-item h2::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 8px;
   height: 30px;
   margin-right: 10px;
 }
 
-.qualidade-item:nth-of-type(3n+1) h2::before {
+.qualidade-item:nth-of-type(3n + 1) h2::before {
   background: #ae81ff;
 }
 
-.qualidade-item:nth-of-type(3n+2) h2::before {
+.qualidade-item:nth-of-type(3n + 2) h2::before {
   background: #f9265e;
 }
 
-.qualidade-item:nth-of-type(3n+3) h2::before {
+.qualidade-item:nth-of-type(3n + 3) h2::before {
   background: #66d9eb;
 }
 
